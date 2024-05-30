@@ -1,0 +1,32 @@
+<h1>Kết quả học tập</h1>
+<table>
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>MSSV</th>
+      <th>Mã học phần</th>
+      <th>Tên học phần</th>
+      <th>Số tín chỉ</th>
+      <th>Điểm 10</th>
+      <th>Điểm 4</th>
+      <th>Điểm chữ</th>
+      <th>Kết quả</th>
+      <th>Năm học</th>
+      <th>Kỳ học</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let diem of diems">
+      <td>{{ diem.MSSV }}</td>
+      <td>{{ diem.MaHP }}</td>
+      <td>{{ diem.TenHP }}</td>
+      <td>{{ diem.SoTinChi }}</td>
+      <td>{{ diem.Diem10 }}</td>
+      <td>{{ diem.Diem4 }}</td>
+      <td>{{ diem.DiemChu }}</td>
+      <td>{{ diem.KetQua }}</td>
+      <td>{{ diem.NamHoc }}</td>
+      <td>{{ diem.KyHoc }}</td>
+    </tr>
+  </tbody>
+</table>

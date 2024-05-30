@@ -1,0 +1,33 @@
+{
+    "dsdiems": [
+      {
+        "id": "1",
+        "MSSV": "4451050375",
+        "MaHP": "1010038",
+        "TenHP":"Đại số tuyến tính",
+        "SoTinChi":3.0,
+        "Diem10":8.7,
+        "Diem4":3.5,
+        "DiemChu":"A",
+        "KetQua":true,
+        "NamHoc":"2021-2022",
+        "KyHoc":1
+      },
+      {
+        "id": "2",
+        "MSSV": "4451050375",
+        "MaHP": "1010245",
+        "TenHP":"Giải tích",
+        "SoTinChi":3.0,
+        "Diem10":7.5,
+        "Diem4":3.0,
+        "DiemChu":"B",
+        "KetQua":true,
+        "NamHoc":"2021-2022",
+        "KyHoc":1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
